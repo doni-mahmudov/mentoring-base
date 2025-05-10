@@ -1,0 +1,60 @@
+.header {
+    display: flex; 
+    justify-content: space-between;
+    height: 80px;
+    color: white;
+   background-color: #4b565e;
+   padding: 0px 240px;
+   align-items: center;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+}
+.header-nav-item {
+    margin-right: 20px;
+}
+.header-loga {
+    margin-right: 20px;
+}
+.header-1{
+    display: flex;
+    align-items: center;
+}
+.header-ray {
+    margin-left: 30px;
+}
+.header-car{
+    display: flex;
+    margin-left: 40px;
+    background-color: #4b565e;
+    align-items: center;
+    border-style: solid;
+    border-color: #f0ba4f;
+    border-width: 1px;
+    border-radius: 50px;
+}
+.header-car-3 {
+    color: white ;
+    margin-left: 15px;
+}
+.yellow {
+    background-color: #f0ba4f;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+    align-items: center;
+}
+.header-nav-yellow {
+    display: flex;
+}
+.header-yellow-1 {
+    margin-right: 15px;
+}
+.header-sign {
+    margin-right: 7px;
+}
