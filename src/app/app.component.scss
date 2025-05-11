@@ -4,29 +4,36 @@
     height: 80px;
     color: white;
    background-color: #4b565e;
-   padding: 0px 240px;
+   padding: 0px 200px;
    align-items: center;
 }
+
 .header-left {
     display: flex;
     align-items: center;
 }
+
 .header-nav{
     display: flex;
 }
+
 .header-nav-item {
     margin-right: 20px;
 }
+
 .header-loga {
     margin-right: 20px;
 }
+
 .header-1{
     display: flex;
     align-items: center;
 }
+
 .header-ray {
     margin-left: 30px;
 }
+
 .header-car{
     display: flex;
     margin-left: 40px;
@@ -37,24 +44,58 @@
     border-width: 1px;
     border-radius: 50px;
 }
+
 .header-car-3 {
     color: white ;
     margin-left: 15px;
 }
+
 .yellow {
     background-color: #f0ba4f;
     height: 48px;
     display: flex;
     justify-content: space-between;
-    padding: 0 240px;
+    padding: 0 200px;
     align-items: center;
 }
+
 .header-nav-yellow {
     display: flex;
 }
+
 .header-yellow-1 {
     margin-right: 15px;
+    background-color: #f0ba4f;
+    border-color: #f0ba4f;
+    border-style: solid;
 }
+
 .header-sign {
     margin-right: 8px;
 }
+
+.header-none {
+    text-decoration: none;
+    color: white !important;
+}
+
+.header_niz_right {
+     color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ .form {
+    border-bottom: 1px solid black;
+    display: flex;
+ } 
+ 
+ .form_input {
+    background-color: #F0BA4E;
+    border: none;
+    width: 350px;
+    top: 28px;
+    border-width: 1px;
+    outline: none;
+ }
