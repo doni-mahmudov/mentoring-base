@@ -19,6 +19,8 @@
 
 .header-nav-item {
     margin-right: 20px;
+    color: white !important;
+    text-decoration:none
 }
 
 .header-loga {
@@ -130,7 +132,6 @@
     color: #A1A0A0;
     border: none;
     background: none;
-    font-family:inter;
 }
 
 .item-cards{
@@ -143,12 +144,11 @@
     box-shadow: 0px 20px 50px 0px #3C3C3B12;
     max-height: 428px;
     max-width: 421px;
-    background-image: url(/assets/image-19.png);
+    background-image: url('/assets/image-19.png');
     background-repeat: no-repeat;
     background-position: left;
     background-position: bottom;
     overflow: hidden;
-    margin-bottom: 500px;
     padding: 15px;
     box-sizing: border-box;
     display: flex;
@@ -186,7 +186,7 @@
     width: 421px;
     height: 213px;
     box-shadow: 0px 20px 50px 0px #3C3C3B12;
-    background-image: url(/assets/image-14.png);
+    background-image: url('/assets/image-14.png');
     background-repeat: no-repeat;
     background-position-x: left ;
     background-position-y: bottom;
@@ -230,12 +230,11 @@
 }
 
 
-
 .item-cards-block-3 {
         width: 421px;
     height: 213px;
     box-shadow: 0px 20px 50px 0px #3C3C3B12;
-     background-image: url(/assets/image-18.png);
+     background-image: url('/assets/image-18.png');
     background-repeat: no-repeat;
     background-position-x: left ;
     background-position-y: bottom;
@@ -247,7 +246,7 @@
         width: 421px;
     height: 213px;
     box-shadow: 0px 20px 50px 0px #3C3C3B12;
-    background-image: url(/assets/image-15.png);
+    background-image: url('/assets/image-15.png');
     background-repeat: no-repeat;
     background-position-x: left ;
     background-position-y: bottom;
@@ -315,3 +314,31 @@
     margin-left: 19px;
 }
 
+.popular-produkts {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 146px;
+}
+
+.popular-produkts-1 {
+    font-size: 28px;
+    font-family: inter;
+    font-weight: 600;
+}
+
+.new-produkts {
+    display: flex;
+    gap: 16px;
+    margin-left: 100px;
+}
+    
+.new-produkts-1 {
+    height: 429px;
+    width: 309px;
+   box-shadow: 0px 20px 50px 0px rgba(60, 60, 59, 0.0705882353);
+}
+
+.popular-produkts-2 {
+    color: #f0ba4e;
+    text-decoration:none
+}
