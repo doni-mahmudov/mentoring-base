@@ -224,7 +224,7 @@
     width: 421px;
     height: 213px;
     box-shadow: 0px 20px 50px 0px #3C3C3B12;
-    background-image: url(/assets/image-17.png);
+    background-image: url('/assets/image-17.png');
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
@@ -396,19 +396,18 @@
     margin-left: 13px;
 }
 
-.number {
+.quantity-decrease {
     border: none;
     background: none;
 
 }
 
-.number-1 {
+.quantity-selector {
     display: flex;
     margin-top: -12px
 }
 
-
-.number-2 {
+.add-button {
     border-style: solid;
     border-color: #f0ba4f;
     border-width: 1px;
@@ -418,24 +417,23 @@
     background-color: white;
 }
 
-
-.number-3 {
+.add-to-cart {
     margin-left: 67px;
     margin-top: -5px;
 
 }
 
-.number-4 {
+.quantity-value {
     margin-left: 8px;
     margin-right: 8px
 }
 
-.span-moni {
+.price-regular {
     display: flex;
     margin-top: -10px;
 }
 
-.sapan-moni-1 {
+.price-discounted {
     margin-top: auto;
     margin-left: 12px;
 }
